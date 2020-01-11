@@ -1,0 +1,22 @@
+# Start message
+startup_message off
+
+# Set hardstatus always on
+hardstatus on
+caption always "%{= kw}%-w%{= kG}%{+b}[%n %t]%{-b}%{= kw}%+w %=%d %M %0c:%s %{g}%H%{-}"
+
+# Set default encoding using utf8
+defutf8 on
+
+# Refresh the display when exiting programs
+altscreen on
+
+# Dynamic title
+shelltitle '$ |bash'
+
+# Disable vbell
+vbell off
+
+# bind F10 to rename current screen window
+bindkey -k k; title
+
